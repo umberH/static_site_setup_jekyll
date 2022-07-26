@@ -21,6 +21,7 @@ gem "jekyll", "~> 3.9.0"
 #gem "github-pages","~> 202" , group: :jekyll_plugins
 gem "github-pages", "~> 219", group: :jekyll_plugins
 gem "minima", "~> 2.5"
+gem 'faraday_middleware-request-retry', '~> 0.2.0'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
